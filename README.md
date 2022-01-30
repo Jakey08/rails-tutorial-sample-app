@@ -1,4 +1,4 @@
-# Ruby on Rails チュートリアルのサンプルアプリケーション
+# Docker上で環境構築をしたRails tutorialのアプリケーション
 
 これは、次の教材で作られたサンプルアプリケーションです。
 [*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
