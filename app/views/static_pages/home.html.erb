@@ -5,6 +5,13 @@
   </head>
   <body>
     <div class="center jumbotron">
+    <nav>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Help</a></li>
+    <li><a href="#">Log in</a></li>
+  </ul>
+</nav>
     <h1>Welcome to the Sample App</h1>
 
     <h2>
@@ -15,6 +22,8 @@
     <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
     </div>
     <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"),
+               "https://rubyonrails.org/" %>
+    <%= link_to image_tag("kitten.jpg", alt: "kitten cat", width: "300px"),
                "https://rubyonrails.org/" %>
   </body>
 </html>
