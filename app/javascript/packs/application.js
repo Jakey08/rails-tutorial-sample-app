@@ -15,10 +15,13 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import 'bootstrap';
-import '../stylesheets/custom.scss';
-
 require("bootstrap");
 require("@fortawesome/fontawesome-free");
+
+import '@fortawesome/fontawesome-free/js/all';
+import "../stylesheets/application.scss";
+import '../stylesheets/custom.scss';
+
+
 
 console.log('Hello World from Webpacker')
