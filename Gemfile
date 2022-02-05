@@ -11,6 +11,10 @@ gem 'webpacker', '~> 4.0.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3'
+#fix the problem which isn't be able to load bootstrap
+gem 'autoprefixer-rails'
+#add bootstrap-sass (rails tutorial chap5)
+gem 'bootstrap'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
