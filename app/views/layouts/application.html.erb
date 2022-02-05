@@ -6,7 +6,7 @@
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all',
                             'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application',
+    <%= javascript_pack_tag 'application',media: 'all',
                             'data-turbolinks-track': 'reload' %>
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
@@ -14,7 +14,7 @@
     <![endif]-->
 </head>
 <body>
-    <header class="navbar navbar-fixed-top navbar-inverse">
+    <header class="navbar navbar-expand-md bg-dark navbar-dark bg-dark">
     <div class="container">
         <%= link_to "sample app", '#', id: "logo" %>
         <nav>
