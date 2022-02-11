@@ -13,8 +13,6 @@ gem 'webpacker', '~> 4.0.7'
 gem 'rails', '~> 6.0.3'
 #fix the problem which isn't be able to load bootstrap
 gem 'autoprefixer-rails'
-#add bootstrap-sass (rails tutorial chap5)
-gem 'bootstrap-sass', '3.4.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
