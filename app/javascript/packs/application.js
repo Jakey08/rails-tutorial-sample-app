@@ -19,6 +19,7 @@ require("bootstrap");
 require("@fortawesome/fontawesome-free");
 
 import '@fortawesome/fontawesome-free/js/all';
+import 'bootstrap';
 import "../stylesheets/application.scss";
 import "../stylesheets/custom.scss";
 
