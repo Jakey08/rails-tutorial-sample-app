@@ -14,8 +14,6 @@ gem 'rails', '~> 6.0.3'
 gem 'bootstrap-sass', '3.4.1'
 #fix the problem which isn't be able to load bootstrap
 gem 'autoprefixer-rails'
-#add bootstrap
-gem 'bootstrap', '~> 5.1.3'
 gem 'jquery-rails'
 
 # Use postgresql as the database for Active Record
@@ -29,7 +27,7 @@ gem 'jbuilder', '~> 2.9.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.13'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
