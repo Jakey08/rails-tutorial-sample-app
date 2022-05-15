@@ -21,7 +21,7 @@ dir名 : sample-app-latest
 $ docker-compose up --build
 ```
 
-localhost のport　番号 3010　にアクセスします。
+localhost のport　番号 3000　にアクセスします。
 
 
 データベースへのマイグレーションを実行、あるいは bundle install する場合は、 container 上で行う必要があるので、以下のコマンドを実行し、 container 内に入ります。
