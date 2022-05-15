@@ -14,32 +14,18 @@ dir名 : sample-app-latest
 
 ## 使い方
 
-このアプリケーションを動かす場合は、まずはリポジトリを手元にクローンしてください。
-その後、次のコマンドで必要になる RubyGems をインストールします。
+このアプリケーションを動かす場合は、Docker が PC　に setup されている必要があります。
+以下のコマンドで、build して、 container を起動します。
 
 ```
-$ gem install bundler -v 2.2.17
-$ bundle _2.2.17_ config set --local without 'production'
-$ bundle _2.2.17_ install
+$ docker-compose up --build
 ```
 
-その後、データベースへのマイグレーションを実行します。
+localhost のport　番号 3010　にアクセスします。
+
+
+データベースへのマイグレーションを実行、あるいは bundle install する場合は、 container 上で行う必要があるので、以下のコマンドを実行し、 container 内に入ります。
 
 ```
-$ rails db:migrate
+$ docker-compose exec web bash
 ```
-
-最後に、テストを実行してうまく動いているかどうか確認してください。
-
-```
-$ rails test
-```
-
-テストが無事に通ったら、Railsサーバーを立ち上げる準備が整っているはずです。
-
-```
-$ rails server
-```
-
-詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
-を参考にしてください。
