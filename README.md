@@ -1,5 +1,4 @@
-# Docker上で環境構築をしたRails tutorialのアプリケーション
-dir名 : sample-app-latest
+# Docker上で環境構築をしたRails tutorialのアプリケーション2021
 
 これは、次の教材で作られたサンプルアプリケーションです。
 [*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
