@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <%= render 'layouts/head' %>
-    <%= render 'layouts/shim' %>
-    <body>
-        <%= render 'layouts/header' %>
-        <div class="container">
-        <%= yield %>
-        <%= render 'layouts/footer' %>
-        </div>
-    </body>
+<head>
+    <title>RailsBootstrapTemplate</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= javascript_pack_tag 'application' %>
+    <%= stylesheet_pack_tag 'application' %>
+</head>
+
+<body>
+    <%= yield %>
+</body>
 </html>
