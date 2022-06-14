@@ -1,0 +1,99 @@
+/* mixins, variables, etc. */
+/* universal */
+/* line 9, app/assets/stylesheets/custom.scss */
+body {
+  padding-top: 60px;
+}
+
+/* line 13, app/assets/stylesheets/custom.scss */
+section {
+  overflow: auto;
+}
+
+/* line 17, app/assets/stylesheets/custom.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 21, app/assets/stylesheets/custom.scss */
+.center {
+  text-align: center;
+}
+
+/* line 23, app/assets/stylesheets/custom.scss */
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+/* line 30, app/assets/stylesheets/custom.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+/* line 34, app/assets/stylesheets/custom.scss */
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* line 41, app/assets/stylesheets/custom.scss */
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* line 50, app/assets/stylesheets/custom.scss */
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+/* line 58, app/assets/stylesheets/custom.scss */
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+/* line 67, app/assets/stylesheets/custom.scss */
+#logo:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* footer */
+/* line 75, app/assets/stylesheets/custom.scss */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+}
+
+/* line 86, app/assets/stylesheets/custom.scss */
+footer small {
+  float: left;
+}
+
+/* line 89, app/assets/stylesheets/custom.scss */
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+/* line 92, app/assets/stylesheets/custom.scss */
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
