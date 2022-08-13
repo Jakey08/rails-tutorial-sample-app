@@ -1,0 +1,6 @@
+<h2>TO DO APP</h2>
+<%= link_to "create a new task", "/tasks/new", class: "btn btn-primary" %>
+<h2>[TASK LIST]</h2>
+<% @tasks.each do |task| %>
+ <p><%= task.title %><%= button_to 'DELETE', '/tasks/' + task.id.to_s, method: :delete %></p>
+<% end %>
