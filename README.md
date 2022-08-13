@@ -1,4 +1,4 @@
-# Docker上で環境構築をしたrails　のbase container 
+# Docker上で環境構築をしたrailsのbase container 
 #### rails で開発する際に使用を想定
 #### bootstrap はまだ動かないので、修正中。
 
