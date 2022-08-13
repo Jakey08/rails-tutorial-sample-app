@@ -1,16 +1,6 @@
-# Docker上で環境構築をしたRails tutorialのアプリケーション2021
-
-これは、次の教材で作られたサンプルアプリケーションです。
-[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
-（第6版）
-[Michael Hartl](https://www.michaelhartl.com/) 著
-
-## ライセンス
-
-[Ruby on Rails チュートリアル](https://railstutorial.jp/)内にある
-ソースコードはMITライセンスとBeerwareライセンスのもとで公開されています。
-詳細は [LICENSE.md](LICENSE.md) をご覧ください。
-
+# Docker上で環境構築をした rails　の base　container 
+# rails で開発する際に使用を想定
+# bootstrap はまだ動かないので、修正中。
 ## 使い方
 
 このアプリケーションを動かす場合は、Docker が PC　に setup されている必要があります。
