@@ -1,6 +1,7 @@
-# Docker上で環境構築をした rails　の base　container 
-# rails で開発する際に使用を想定
-# bootstrap はまだ動かないので、修正中。
+# Docker上で環境構築をしたrails　のbase container 
+#### rails で開発する際に使用を想定
+#### bootstrap はまだ動かないので、修正中。
+
 ## 使い方
 
 このアプリケーションを動かす場合は、Docker が PC　に setup されている必要があります。
