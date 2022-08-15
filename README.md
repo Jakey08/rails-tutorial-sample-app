@@ -1,6 +1,7 @@
-# Docker上で環境構築をしたrails-tutorial 
+# docker + rails + webpack 環境 
 
 #### bootstrap はまだ動かないので、修正中。
+
 
 ## 使い方
 
