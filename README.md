@@ -1,4 +1,4 @@
-# docker + rails + webpack 環境 
+# docker + rails6 + webpack 環境 
 
 #### bootstrap はまだ動かないので、修正中。
 
